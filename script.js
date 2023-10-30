@@ -54,7 +54,6 @@ buscarButton.addEventListener("click", () => {
             <p><strong>Comissão:</strong> ${produto.comissao}</p>
             <p><strong>Bônus:</strong> ${produto.bonus}</p>
             <p><strong>Comissão final:</strong> ${produto.comissao_total}</p>
-            <p><strong>Sua posição no ranking mensal é:</strong> ${produto.ranking}</p>
         `;
     } else {
         // Exibindo mensagem se o produto não for encontrado
